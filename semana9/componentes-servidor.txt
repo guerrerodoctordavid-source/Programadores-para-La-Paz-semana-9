@@ -1,0 +1,14 @@
+Sistema operativo:
+Es la base que administra el hardware y permite ejecutar Node.js. En mi caso es Linux/Android. Gestiona memoria, procesos y acceso a red. Sin SO el servidor no podría funcionar.
+
+Node.js:
+Es el entorno que ejecuta código JavaScript fuera del navegador. Permite crear servidores web. Interpreta el archivo server.js y mantiene el proceso activo para responder peticiones.
+
+Aplicación server.js:
+Es el código que define qué hace el servidor. Aquí creamos las rutas / y /estado usando Express. Es la lógica específica de nuestra API comunitaria.
+
+Puerto:
+Es una puerta lógica numerada, en este caso 3000. Permite que múltiples servicios funcionen en la misma máquina. El servidor "escucha" en este puerto las solicitudes que llegan.
+
+Logs:
+Son registros de lo que pasa en el servidor. En este caso el console.log muestra cuándo inicia. En producción guardan errores, accesos y eventos para monitorear estabilidad.
